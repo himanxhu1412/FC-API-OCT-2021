@@ -8,7 +8,7 @@
     "info": {
         "description": "",
         "version": "1.0",
-        "title": "FranConnect API"
+        "title": "FranConnect API - HP"
     },
     "basePath": " ",
     "tags": [
@@ -167,6 +167,10 @@
             "description": "The purpose of Segments is to improve operational performance from the brand to the unit level. The FranConnect API allows you to create Segments and define segment hierarchies. <p>In FranConnect API, segments are identified by either their <b>segmentId</b> or <b>customSegmentId</b>. A segmentId is a unique identifier that we store in our FranConnect's database, whereas, a customSegmentId is a unique identifier that a user is able to see at the front-end. Moreover, a customSegmentId is incremental in nature, for eg. segmentA is created with a customSegmentId of 001, then the next segment that gets created, will automatically take a customSegmentId of 002 and so on.</p>"
         },
         {
+            "name": "Segment - HP",
+            "description": "Segments help in improving the the operational performance from brand to unit level. <br> THis will help to do great stuff. <p> The API can help with multiple stuff like creating segments, defining segment hierarchies, etc. </p>"
+        }
+        {
             "name": "Segment Categories",
             "description": "These API endpoints support operations associated with Segment Categories."
         },
@@ -291,6 +295,7 @@
                 "Profit and Loss Statements",
                 "Memos",
                 "Segments",
+                "Segment - HP",
                 "Segment Categories",
                 "Custom Segment Fields",
                 "Segment",
